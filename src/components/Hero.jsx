@@ -36,7 +36,7 @@ function Hero() {
       </div>
 
       <div className="hero-image">
-        <img src="/profil.jpg" alt="Mert Efe Yüksel" />
+        <img src={`${import.meta.env.BASE_URL}profil.jpg`} alt="Mert Efe Yüksel" />
       </div>
     </section>
   )
